@@ -90,6 +90,7 @@ header{
     justify-content: space-evenly;
     padding: 0 40px;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -103,17 +104,24 @@ header{
 
 .top-picture-about{
     width: 800px;
-
 }
 
-.top p{
-    padding-bottom: 20px;
-    border-bottom: 1px dashed black;
+h1{
+    padding-left: 20px;
+}
+
+.text-container-about p{
+    padding-left: 20px; 
+}
+
+.container2{
+    width: 800px;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
-    margin: 20px 0;
+    margin: 10px 0;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -122,12 +130,54 @@ p {
     padding-bottom: 10px;
 }
 
-.text-container-about {
-    width: 800px;
-    padding-bottom: 20px;  
+/* thie section above works */
+
+.middle-content-about {
+    display: inline-flex;
+    flex-wrap: wrap row;
+    margin: 0 20px;
+}
+
+.middle-content-about img{
+    width:100%;
+}
+
+.post-blocks{
+    width: 50%;
+    border-bottom: 1px dashed black;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.post-blocks p{
+    padding-bottom: 20px;
+}
+
+.learn-more-btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 18px;
+    border-radius: 10px;
+}
+
+.bottom-content-about {
+    display: inline-flex;
+    flex-wrap: wrap row;
+    margin: 0 10px;
+}
+
+.bottom-content-about img{
+    width:100%;
+    height: fit-content;
+    margin-top: 40px;
 }
 
 /* End of new code for about page */
+
+.ending-content-about{
+    padding: 20px;
+}
 footer {
     width: 100%;
     background: black;
